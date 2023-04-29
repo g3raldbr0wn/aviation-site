@@ -3293,4 +3293,8 @@ html {
   .inside-ap-pic {
     display: none;
   }
+
+  .package-cards {
+    display: block;
+  }
 }
