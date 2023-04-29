@@ -9,50 +9,46 @@
     <title>Contact</title>
 </head>
 <body>
-    <header class="absolute inset-x-0 top-0 z-50 bg-blue-600">
-        <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
-          <div class="flex lg:flex-1">
-            <a href="index.html" class="-m-1.5 p-1.5">
-              <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=white" alt="logo">
-            </a>
-          </div>
-          
-          <div class="lg:flex lg:gap-x-12">
-            <a href="pilot.html" class="text-sm font-semibold leading-6 text-white">Become a Pilot</a>
-    
-            <a href="#" class="text-sm font-semibold leading-6 text-white">Aircraft Maintenance</a>
-    
-            <a href="about.html" class="text-sm font-semibold leading-6 text-white">About</a>
-    
-            <a href="contact.html" class="text-sm font-semibold leading-6 text-white">Contact</a>
-          </div>
-          <div class="lg:flex lg:flex-1 lg:justify-end">
-            <a href="#" class="text-sm font-semibold leading-6 text-white">Log in <span aria-hidden="true">&rarr;</span></a>
-          </div>
-        </nav>
-        
-    </header>
 
-
-    <div>
-        <section>
-
-
-            <div class="flex flex-wrap py-28">
-                <div class="w-full md:w-1/2 p-4">
-                  <img src="./src/img/inside-ap.jpg" alt="Small Plane" class="w-full object-cover rounded-lg shadow-lg">
-                </div>
-                <div class="w-full md:w-1/2 p-4">
-                  <h2 class="text-3xl font-bold text-center py-12">Small Plane Aviation Training</h2>
-                  <p class="mb-4 p-10">Our small plane aviation training program is designed to provide you with the skills and knowledge you need to become a confident and capable pilot. Our experienced instructors will guide you through every step of the training process, from the basics of flight to advanced techniques and maneuvers.</p>
-                  <p class="mb-4 p-10">We offer a range of training options, including private lessons and group classes, to fit your schedule and learning style. Whether you're just starting out or looking to take your skills to the next level, we're here to help you achieve your goals.</p>
-                  <div class="p-10">
-                  <a href="contact.html" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ">Contact Us</a>
-                </div>
-                </div>
-              </div>
-        </section>
+  <!-- Nav Start -->
+<div class="menu flex items-center justify-center xl:items-start">
+  <!-- your existing navbar code here -->
+<nav class="menu bg-blue-600">
+  <div class="menu-logo"><a href="index.html">LOGO</a></div>
+  <ul class="menu-items">
+    <li><a href="pilot.html">Become a Pilot</a></li>
+    <li><a href="#">Aircraft Maintenance</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+  </ul>
+  <div class="menu-icon">
+    <div class="icon">
+      <!-- Changing the icon to be a hamburger -->
+      <div class="container" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
     </div>
+  </div>
+</nav>
+</div>
+<!-- Nav End -->
+
+
+<div class="flex flex-wrap py-28">
+  <div class="w-full md:w-1/2 p-4 inside-ap-pic">
+    <img src="./src/img/inside-ap.jpg" alt="Small Plane" class="w-full object-cover rounded-lg shadow-lg md:hidden">
+  </div>
+  <div class="w-full md:w-1/2 p-4">
+    <h2 class="text-3xl font-bold text-center py-12">Small Plane Aviation Training</h2>
+    <p class="mb-4 p-10">Our small plane aviation training program is designed to provide you with the skills and knowledge you need to become a confident and capable pilot. Our experienced instructors will guide you through every step of the training process, from the basics of flight to advanced techniques and maneuvers.</p>
+    <p class="mb-4 p-10">We offer a range of training options, including private lessons and group classes, to fit your schedule and learning style. Whether you're just starting out or looking to take your skills to the next level, we're here to help you achieve your goals.</p>
+    <div class="p-10">
+      <a href="contact.html" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ">Contact Us</a>
+    </div>
+  </div>
+</div>
 
       <!-- Footer -->
 
@@ -76,6 +72,7 @@
       </div>
     </footer>
   </div>
-  
+    <script src="main.js"></script>
+
 </body>
 </html>

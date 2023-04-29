@@ -3192,3 +3192,105 @@ html {
     text-align: center;
   }
 }
+
+
+.menu {
+  display: flex;
+  justify-content:flex-start;
+  /* align-items:center; */
+  width: 100%;
+  height: 10%;
+  position: fixed;
+  top: 0;
+  /* background-color:blue; */
+  padding: 20px;
+  z-index: 100;
+}
+
+.menu-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu-items {
+  display: flex;
+  align-items: flex-start;
+  font-weight: 700;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-items li {
+  margin: 0 20px;
+}
+
+.menu-items a {
+  text-decoration: none;
+  color: #333333;
+  font-size: 18px;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .menu-items {
+    display: none;
+  }
+
+  /* Need to change this to get to the right */
+  .menu-icon {
+    display: flex;
+    cursor: pointer;
+    justify-content: flex-end;
+  }
+
+  .menu-items.active {
+    display: block;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .menu-items.active li {
+    margin: 10px 0;
+  }
+}
+/* Added CSS for Hamburger */
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+/* Fade out the second bar */
+.change .bar2 {opacity: 0;}
+
+/* Rotate last bar */
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+
+@media screen and (max-width: 768px) {
+  .inside-ap-pic {
+    display: none;
+  }
+}
