@@ -3302,4 +3302,8 @@ html {
     padding-top: 0.25rem;
     padding-bottom: 0.5rem;
   }
+  .hero-img {
+    max-width: 100%;
+    height: auto;
+  }
 }
