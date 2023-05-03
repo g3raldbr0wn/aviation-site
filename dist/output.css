@@ -3329,10 +3329,12 @@ html {
     height: 100%;
     padding: 0;
     margin: 0;
-    object-fit: cover;
+    object-fit: contain;
   }
   .hero-img img {
     height: 100%;
+    object-fit: cover;
+
   }
   hero-bottom {
     margin-top: 8rem;
