@@ -3325,10 +3325,13 @@ html {
 
 
 @media only screen and (max-width: 414px) {
-  .hero-img img {
+  .hero-img {
     height: 100%;
     padding: 0;
     margin: 0;
+  }
+  .hero-img img {
+    height: 100%;
   }
   hero-bottom {
     margin-top: 8rem;
