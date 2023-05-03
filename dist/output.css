@@ -3326,7 +3326,5 @@ html {
 
 
 @media only screen and (max-width: 414px) {
-  .hero-img {
-    padding-top: 5rem; /* or any other value that works for your design */
-  }
+  
 }
