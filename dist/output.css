@@ -3330,6 +3330,7 @@ html {
     padding: 0;
     margin: 0;
     object-fit: contain;
+    position: relative;
   }
   .hero-img img {
     height: 100%;
@@ -3337,13 +3338,22 @@ html {
 
   }
   hero-bottom {
-    margin-top: 8rem;
+    margin-top: 0;
   }
   h1-hero {
-    top: 5%;
+    position: absolute;
+    top: 10px; /* adjust this value as needed */
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
   }
+  
   btn-hero {
-    top: 50%;
-    left: 50%;
+    position: absolute;
+    bottom: 10px; /* adjust this value as needed */
+    left: 0;
+    right: 0;
+    margin: auto;
   }
 }
