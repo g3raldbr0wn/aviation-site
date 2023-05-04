@@ -3337,8 +3337,8 @@ html {
     object-fit: cover;
 
   }
-  hero-bottom {
-    margin-top: 0;
+  next-hero-bottom {
+    padding-top: 0;
   }
   h1-hero {
     position: absolute;
