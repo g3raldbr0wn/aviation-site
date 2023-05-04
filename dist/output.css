@@ -3345,10 +3345,9 @@ html {
     position: absolute;
     top: 10%; /* adjust this value as needed */
     left: 50%;
-    right: 0;
-    /* transform:translate(-50%, -50%);  */
     font-size: 3rem;
     margin: auto;
+    padding: 0;
     text-align: center;
   }
   
