@@ -3339,4 +3339,11 @@ html {
   hero-bottom {
     margin-top: 8rem;
   }
+  h1-hero {
+    top: 5%;
+  }
+  btn-hero {
+    top: 50%;
+    left: 50%;
+  }
 }
