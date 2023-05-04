@@ -3339,6 +3339,9 @@ html {
   }
   next-hero-bottom {
     padding-top: 0;
+    padding-bottom: 0b;
+    margin-top: 0;
+    margin-bottom: 0;
   }
   h1-hero {
     position: absolute;
