@@ -3324,7 +3324,7 @@ html {
 }
 
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 500px) {
   .hero-img {
     height: 100%;
     padding: 0;
@@ -3338,10 +3338,8 @@ html {
 
   }
   next-hero-bottom {
-    padding-top: 0;
-    padding-bottom: 0b;
-    margin-top: 0;
-    margin-bottom: 0;
+    padding: 0;
+    margin: 0;
   }
   h1-hero {
     position: absolute;
