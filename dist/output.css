@@ -3346,6 +3346,8 @@ html {
     top: 10px; /* adjust this value as needed */
     left: 0;
     right: 0;
+    transform:translate(-50%, -50%); 
+    font-size: 3rem;
     margin: auto;
     text-align: center;
   }
@@ -3355,6 +3357,7 @@ html {
     bottom: 10px; /* adjust this value as needed */
     left: 0;
     right: 0;
+    transform: translate(-50%, -50%);
     margin: auto;
   }
 }
