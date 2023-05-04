@@ -3343,6 +3343,7 @@ html {
   }
   h1-hero {
     position:absolute;
+    display: flex;
     top: 10%;
     left: 50%;
     font-size: 3rem;
