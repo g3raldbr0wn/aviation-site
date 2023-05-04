@@ -3343,10 +3343,10 @@ html {
   }
   h1-hero {
     position: absolute;
-    top: 10px; /* adjust this value as needed */
-    left: 0;
+    top: 10%; /* adjust this value as needed */
+    left: 50%;
     right: 0;
-    transform:translate(-50%, -50%); 
+    /* transform:translate(-50%, -50%);  */
     font-size: 3rem;
     margin: auto;
     text-align: center;
@@ -3354,7 +3354,7 @@ html {
   
   btn-hero {
     position: absolute;
-    bottom: 10px; /* adjust this value as needed */
+    bottom: 50%;
     left: 0;
     right: 0;
     transform: translate(-50%, -50%);
