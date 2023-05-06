@@ -3349,13 +3349,18 @@ html {
     font-size: 3rem;
     margin: auto;
     text-align: center;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: 700;
+    z-index: 100;
   }
   
   btn-hero {
     position: absolute;
     bottom: 50%;
     left: 50%;
-   
     margin: auto;
+    transform: translate(-50%, -50%);
+    z-index: 100;
   }
 }
